@@ -44,4 +44,21 @@ a {
     position: relative;
     color: white;
 }
+#hero .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid gray;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px; 
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+#hero .cta:hover {
+    color: white;
+    background-color: gray;
+}
 /* fin Hero section*/
