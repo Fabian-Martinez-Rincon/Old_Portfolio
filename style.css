@@ -7,6 +7,7 @@
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 a {
     text-decoration: none;
@@ -37,7 +38,12 @@ a {
     opacity: .7;
     z-index: -1;
 }
-
+#hero .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
 #hero h1{
     display: block;
     width: fit-content;
@@ -45,7 +51,7 @@ a {
     position: relative;
     color: transparent;
     animation: text_reveal .5s ease forwards;
-    animation-delay: 1ss;
+    animation-delay: 1s;
 }
 #hero h1:nth-child(1){
     animation-delay: 1s;
@@ -53,8 +59,9 @@ a {
 #hero h1:nth-child(2){
     animation-delay: 2s;
 }
-#hero h1:nth-child(3){
-    animation-delay: 3s;
+#hero h1:nth-child(3) {
+	animation: text_reveal_name .5s ease forwards;
+	animation-delay: 3s;
 }
 #hero h1 span {
     position: absolute;
@@ -62,7 +69,7 @@ a {
     left: 0;
     height: 100%;
     width: 0;
-    background-color: darkgray;
+    background-color: crimson;
     animation: text_reveal_box 1s ease;
     animation-delay: .5s;
 }
@@ -80,7 +87,7 @@ a {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid gray;
+    border: 2px solid crimson;
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -107,7 +114,13 @@ a {
 @keyframes text_reveal{
     100%{
         color: white;
+        font-weight: 230;
     }
 }
-
+@keyframes text_reveal_name{
+    100%{
+        color: crimson;
+        font-weight: 230;
+    }
+}
 /*KeyFrames*/
