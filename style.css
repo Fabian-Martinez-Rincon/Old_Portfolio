@@ -37,6 +37,7 @@ a {
     opacity: .7;
     z-index: -1;
 }
+
 #hero h1{
     display: block;
     width: fit-content;
