@@ -20,7 +20,7 @@ a {
 }
 /* Hero section*/
 #hero {
-    background-image: url(./img/5.gif);
+    background-image: url(./img/gif3.gif);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -44,7 +44,16 @@ a {
     position: relative;
     color: transparent;
     animation: text_reveal .5s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: 1ss;
+}
+#hero h1:nth-child(1){
+    animation-delay: 1s;
+}
+#hero h1:nth-child(2){
+    animation-delay: 2s;
+}
+#hero h1:nth-child(3){
+    animation-delay: 3s;
 }
 #hero h1 span {
     position: absolute;
@@ -54,7 +63,16 @@ a {
     width: 0;
     background-color: darkgray;
     animation: text_reveal_box 1s ease;
-    animation-delay: 1s;
+    animation-delay: .5s;
+}
+#hero h1:nth-child(1) span{
+    animation-delay: .5s;
+}
+#hero h1:nth-child(2) span{
+    animation-delay: 1.5s;
+}
+#hero h1:nth-child(3) span{
+    animation-delay: 2.5s;
 }
 #hero .cta{
     display: inline-block;
