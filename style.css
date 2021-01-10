@@ -8,7 +8,7 @@ html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
-	background-color: #a0a0a0;
+	background-color: #070505;/*#070505*/
 }
 a {
 	text-decoration: none;
@@ -26,32 +26,32 @@ img {
 	object-fit: cover;
 }
 p {
-	color: black;
+	color: rgb(168, 167, 167);
 	font-size: 1.4rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
 	font-weight: 300;
 	letter-spacing: .05rem;
 }
-.section-title {
+.section-title {/*Titulos principales*/
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: rgb(238, 237, 237);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	text-align: center;
 }
-.section-title span {
-	color: rgb(105, 104, 104);
+.section-title span { /*Titulo secundario*/
+	color: rgb(71, 71, 71);
 }
 
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: rgb(70, 65, 65);
+	color: rgb(182, 169, 169);
 	background-color: transparent;
-	border: 2px solid rgb(70, 65, 65);
+	border: 2px solid rgb(255, 242, 242);
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
@@ -59,14 +59,14 @@ p {
 	transition: .3s ease;
 	transition-property: background-color, color;
 }
-.cta:hover {
-	color: rgb(0, 0, 0);
-	background-color: rgb(148, 148, 148);
+.cta:hover { /*Porfolio color*/
+	color: rgb(14, 13, 13);
+	background-color: rgb(136, 136, 136);
 }
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: white;
+	color: rgb(153, 153, 153);
 }
 .brand h1 span { 
 	color: rgb(90, 90, 90);
@@ -98,7 +98,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: rgb(5, 5, 5);
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -312,7 +312,7 @@ p {
 	margin-top: 10px;
 }
 #projects .project-info p {
-	color: white;
+	color: rgb(255, 255, 255);
 }
 #projects .project-img {
 	flex-basis: 50%;
@@ -362,8 +362,8 @@ p {
 #about .col-right p {
 	margin-bottom: 20px;
 }
-#about .col-right .cta {
-	color: black;
+#about .col-right .cta {/*Dowload cv*/
+	color: rgb(71, 71, 71);
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
@@ -372,7 +372,7 @@ p {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid white;
+	border: 10px solid rgb(109, 109, 109);
 }
 #about .col-left .about-img::after {
 	content: '';
@@ -381,7 +381,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid rgb(0, 0, 0);
+	border: 7px solid rgb(255, 255, 255);
 	z-index: -1;
 }
 /* End About Section */
@@ -410,7 +410,7 @@ p {
 	transition: .3s ease box-shadow;
 }
 #contact .contact-item:hover {
-	box-shadow: 0px 0px 5px 0 #0000002c;
+	box-shadow: 0px 0px 5px 0 #fdfafa2c;
 }
 #contact .icon {
 	width: 70px;
@@ -561,7 +561,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid rgb(88, 86, 87);
+		border: 10px solid rgb(255, 255, 255);
 	}
 	#about .col-right {
 		text-align: left;
@@ -588,7 +588,7 @@ p {
 		margin: 0;
 	}
 	#contact .contact-item {
-		width: 30%;
+		width: 300%;
 		margin: 0;
 		flex-direction: row;
 	}
