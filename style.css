@@ -8,6 +8,7 @@ html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
+	background-color: #a0a0a0;
 }
 a {
 	text-decoration: none;
@@ -491,12 +492,12 @@ p {
 }
 @keyframes text_reveal {
 	100% {
-		color: white;
+		color: rgb(153, 153, 153);
 	}
 }
 @keyframes text_reveal_name {
 	100% {
-		color: crimson;
+		color: rgb(190, 189, 189);
 		font-weight: 500;
 	}
 }
@@ -560,7 +561,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid crimson;
+		border: 10px solid rgb(88, 86, 87);
 	}
 	#about .col-right {
 		text-align: left;
