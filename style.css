@@ -363,18 +363,21 @@ p {
 	margin-bottom: 20px;
 }
 #about .col-right .cta {/*Dowload cv*/
-	color: rgb(71, 71, 71);
+	color: rgb(88, 88, 88);
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
 }
-#about .col-left .about-img {
-	height: 100%;
-	width: 100%;
-	position: relative;
-	border: 10px solid rgb(109, 109, 109);
+#about .col-left .about-img {/*Primer Marco*/
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	border: 10px solid rgb(187, 187, 187);
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
-#about .col-left .about-img::after {
+/*#about .col-left .about-img::after { Segundo marco
 	content: '';
 	position: absolute;
 	left: -33px;
@@ -383,7 +386,8 @@ p {
 	width: 98%;
 	border: 7px solid rgb(255, 255, 255);
 	z-index: -1;
-}
+	
+}*/  
 /* End About Section */
 
 /* contact Section */
