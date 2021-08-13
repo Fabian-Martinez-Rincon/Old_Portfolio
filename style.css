@@ -474,6 +474,49 @@ p {
 }
 /* End Footer */
 
+
+/* Footer */
+#footer2 {
+	/*background-image: linear-gradient(60deg, #000000 0%, #000000 100%);*/
+}
+#footer2 .footer2 {
+	min-height: 0px;
+	flex-direction: column;
+	padding-top: 100px;
+	padding-bottom: 0px;
+	
+}
+#footer2 h2 {
+	color: white;
+	font-weight: 5;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	margin-top: 10px;
+	margin-bottom: 1px;
+}
+#footer2 .social-icon {
+	display: flex;
+	margin-bottom: 3px;
+}
+#footer2 .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 10 5px;
+}
+#footer2 .social-item img {
+	filter: grayscale(1);
+	transition: .3s ease filter;
+}
+#footer2 .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer2 p {
+	color: white;
+	font-size: 1.3rem;
+}
+/* End Footer2 */
+
+
 /* Keyframes */
 @keyframes hamburger_puls {
 	0% {
