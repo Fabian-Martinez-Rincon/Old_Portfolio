@@ -482,7 +482,7 @@ p {
 #footer2 .footer2 {
 	min-height: 0px;
 	flex-direction: column;
-	padding-top: 100px;
+	padding-top: 60px;
 	padding-bottom: 0px;
 	
 }
@@ -499,10 +499,10 @@ p {
 	margin-bottom: 3px;
 }
 #footer2 .social-item {
-	height: 50px;
-	width: 50px;
+	height: 60px;
+	width: 60px;
 	margin: 10 5px;
-}
+}/*
 #footer2 .social-item img {
 	filter: grayscale(1);
 	transition: .3s ease filter;
@@ -513,7 +513,7 @@ p {
 #footer2 p {
 	color: white;
 	font-size: 1.3rem;
-}
+}*/
 /* End Footer2 */
 
 
