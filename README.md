@@ -1,10 +1,6 @@
 # 💻 Website 
+
 ## Colors page
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| black          | ![#080505](https://via.placeholder.com/10/0a192f?text=+) `#080505` |
-| Light gray     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `rgb(175, 174, 174)` |
-| Light gray2    | ![#233554](https://via.placeholder.com/10/303C55?text=+) `rgb(112, 112, 112)` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `rgb(90, 89, 89)` |
+![image](https://user-images.githubusercontent.com/55964635/172668413-46a935f5-83c1-4867-9808-13564c1d9500.png)
 
